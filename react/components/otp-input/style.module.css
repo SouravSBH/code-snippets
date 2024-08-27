@@ -1,0 +1,21 @@
+.input {
+  border-radius: 4px;
+  width: 36px;
+  height: 48px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.42px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  caret-color: transparent;
+}
+
+.input-group {
+  display: flex;
+  gap: 16px;
+}

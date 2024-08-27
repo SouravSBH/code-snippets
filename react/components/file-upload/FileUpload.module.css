@@ -1,0 +1,163 @@
+.input {
+  display: none;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  cursor: pointer;
+  color: #494949;
+  max-width: 554px;
+  width: 100%;
+  padding: 45px 20px 45px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.77px;
+  text-align: left;
+  color: #7d7d7d;
+}
+
+.label > p,
+.label-change {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.77px;
+  text-align: left;
+  color: #7d7d7d;
+}
+
+.label-change {
+  cursor: pointer;
+}
+
+.verification-section {
+  padding: 30px 0px 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.verification-section h1 {
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.15px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.verification-wrapper {
+  display: flex;
+  grid-template-columns: 1fr 220px;
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.documents-wrapper {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.documents {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.type-wrapper {
+  width: 360px;
+}
+
+.type-wrapper > h2 {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.77px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.type {
+  width: 100%;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.42px;
+  text-align: left;
+  padding: 12px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.type * {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.42px;
+  text-align: left;
+}
+.preview-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.preview-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.preview-items > img {
+  cursor: pointer;
+}
+
+.download-loader {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  color: #7d7d7d;
+}
+
+.download-btn {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex: 1;
+  min-width: 300px;
+}
+.text > p {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.77px;
+  text-align: center;
+  color: #7d7d7d;
+}
+
+.data-wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.option {
+  width: 100%;
+}
+.option select {
+  width: 100%;
+}
+
+.document-wrapper {
+  display: flex;
+}

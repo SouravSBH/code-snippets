@@ -1,0 +1,53 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.body {
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+.image {
+  max-height: 80vh;
+  max-width: 80vw;
+  object-fit: contain;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  transform: translateY(40px) translateX(calc(100% - 80px));
+}
+
+.buttons button {
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+
+.download-button img {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+
+.close-button img {
+  height: 8px;
+  width: 8px;
+  object-fit: contain;
+}

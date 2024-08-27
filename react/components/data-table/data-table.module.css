@@ -1,0 +1,60 @@
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: start;
+  padding: 0 20px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.row-click {
+  cursor: pointer;
+}
+
+.table tr:hover {
+  background-color: #00000003;
+}
+
+.data-row td {
+  padding: 20px;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.42px;
+  text-align: left;
+  color: #494949;
+}
+
+.data-row td * {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.42px;
+  text-align: left;
+  color: #494949;
+}
+
+.data-row {
+  border-bottom: 1px solid #00000026;
+}
+
+.empty {
+  width: 100%;
+  text-align: center;
+  color: #494949;
+}
+
+.paginator {
+  margin: 0 auto;
+}

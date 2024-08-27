@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.outline input {
+  padding: 12px 20px;
+  border: 1px solid var(--admin-input-border-color);
+}
+
+.default input {
+  border: none;
+  outline: none;
+}
+
+.wrapper input {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  min-width: 165px;
+}
+
+.wrapper input::placeholder,
+.wrapper input::-moz-placeholder {
+  color: #8b8a8a;
+}
+
+.wrapper input[type="date"]::-webkit-calendar-picker-indicator {
+  background-position: right;
+  background-size: auto;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: -2px;
+  width: 100%;
+  height: 100%;
+}
